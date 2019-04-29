@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" style="font-size: 40px;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title>页面</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="download/iconfont.js"></script>
+	<link rel="stylesheet" href="download/iconfont.css">
+	<meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+</head>
+<body>
+	<script>
+       	window.onload = window.onresize = function(){
+        var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+				var _html = document.getElementsByTagName('html')[0];
+        view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+       	 }
+</script>
+<!-- top -->
+<div class="top">
+	<span class="iconfont icon-zuojiantou" style="margin-left:0.6rem;font-size:0.8rem;font-weight: bold;"></span>
+	<span class="w1">Woman,Dresses</span>
+	<span class="iconfont icon-gouwuche" style="margin-left: 8rem;font-size: 0.8rem;font-weight: bold;"></span>
+	<button class="w12">ADD TO WISHILST</button>
+	<button>ADD TO CART</button>
+</div>
+<!-- center -->
+<div class="center">
+		<img src="images/center.jpg">
+		<p>Elegent Pink Dresses</p>
+		<span>$605.00</span>
+</div>
+<!-- center2 -->
+<div class="center2">
+	<span class="iconfont icon-jiahao" style="font-weight: bold;"></span>
+	<span>Description</span>
+</div>
+<!-- center3 -->
+<div class="center3">
+	<h3><span class="iconfont icon-shuidi">Colour</span></h3>
+	<h3 class="w1">Choose a Colour for item</h3>
+	<div class="c clearfix">
+		<p></p>
+		<p class="w2"></p>
+		<p class="w3"></p>
+	</div>
+	<div class="center3_b">
+		<h3><span class="iconfont icon-hangeryijia " style="margin-right:0.3rem;"></span>Size</h3>
+		<h3 class="w1">Size available for this item</h3>
+		<ul class="clearfix">
+			<li>6</li>
+			<li>8</li>
+			<li>10</li>
+			<li>12</li>
+			<li>14</li>
+		</ul>
+	</div>
+</div>
+<!-- center4 -->
+<div class="center4">
+	<button>Add To Cart</button>
+</div>
+<!-- center5 -->
+<div class="center5">
+	<p>SHARE ON<span></span></p>
+	<svg class="icon i1" aria-hidden="true">
+  	<use xlink:href="#icon-icons-tuite"></use>
+ 	</svg>
+	<svg class="icon" aria-hidden="true">
+  	<use xlink:href="#icon-lianshu"></use>
+	</svg>
+	<svg class="icon" aria-hidden="true">
+  	<use xlink:href="#icon-tengxunweibo"></use>
+	</svg>
+	<i class="w1">205</i>
+	<i class="w2">332</i>
+	<i class="w3">112</i>
+</div>
+</body>
+</html>
